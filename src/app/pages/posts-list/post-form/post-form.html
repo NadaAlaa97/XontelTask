@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="title" formControlName="title" placeholder="Add Title">
+    </div>
+    
+    <div class="mb-3">
+      <label for="body" class="form-label">Body</label>
+      <textarea class="form-control" id="body" formControlName="body" rows="4"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="userId" class="form-label">User ID</label>
+      <input type="text" class="form-control" id="userId" formControlName="userId" placeholder="Add your User ID">
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100" [disabled]="!form.valid">Save</button>
+  </form>

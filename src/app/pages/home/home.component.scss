@@ -1,0 +1,322 @@
+
+
+.vh-100 {
+    height: 100vh;
+}
+
+.bg-light {
+    background-color: var(--content-bg) !important;
+}
+
+
+
+.main-content {
+    overflow-y: auto;
+}
+
+
+.content-area {
+    padding: 2rem;
+
+    h1 {
+        font-weight: 600;
+        color: var(--text-dark);
+        font-size: 1.8rem;
+    }
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: none;
+    border-radius: 10px; 
+    box-shadow: var(--card-shadow);
+    margin-bottom: 1rem; 
+
+    .card-body {
+        padding: 1.5rem;
+        canvas {
+            width: 100% !important;
+            height: 300px !important;
+        }
+    }
+
+    .card-title {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        margin-bottom: 0.5rem;
+    }
+
+    .text-success {
+        color: var(--text-success) !important;
+    }
+    .text-danger {
+        color: var(--text-danger) !important;
+    }
+}
+
+.stats-icon {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+
+    &.bg-user {
+        background-color: #E5ECFF; 
+        color: #5669D8; 
+    }
+    &.bg-order {
+        background-color: #FFF2E5; 
+        color: #FFA854; 
+    }
+     &.bg-sales {
+        background-color: #E5F9ED; 
+        color: #34B56F; 
+    }
+     &.bg-pending {
+        background-color: #FFEBEB; 
+        color: #FF5B5B; 
+    }
+}
+
+.stat-card {
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-title {
+        font-weight: 500;
+    }
+    h4 {
+        margin-bottom: 0.25rem;
+    }
+    small {
+        font-size: 0.85rem;
+    }
+}
+
+.chart-card {
+    .card-header {
+        background-color: transparent;
+        border-bottom: none;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h5 {
+        font-weight: 600;
+    }
+}
+
+.chart-placeholder {
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-style: italic;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+.mb-auto {
+  margin-bottom: auto !important;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: var(--primary-color, #007bff);
+  }
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #e9b7f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}       
+
+.img{
+    width: 32px;
+    height: 32px;
+    padding: 23px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-image: url("../../assets/images/avatar.png");
+}
+
+
+.ukflag{
+    width: 35px;
+    height: 20px;
+   background-image: url("../../assets/images/UK\ Flag.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.egyflag{
+    width: 20px;
+    height: 20px;
+   background-image: url("../../assets/images/egypt-flag-icon.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+    .user-info {
+        .user-name {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+
+        .user-role {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+    }
+
+
+    .circle-icon{   
+        width: 60px;
+        height: 60px;
+        border-radius: 40%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .circle-icon-img{
+        width: 10px;
+        height: 10px;
+        padding: 15px;
+        padding-left: 22px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: contain;    
+        background-image: url("../../assets/images/Group.png");
+    }
+ .circle-icon-img2{
+    width: 8px;
+    height: 10px;
+    padding: 12px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;    
+    background-image: url("../../assets/images/icon.png");
+}
+
+.circle-icon-img3{
+    width: 8px;
+    height: 10px;
+    padding: 12px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;    
+    background-image: url("../../assets/images/insights.png");
+}
+
+.circle-icon-img4{
+    width: 8px;
+    height: 10px;
+    padding: 12px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;    
+    background-image: url("../../assets/images/pending.png");
+}
+
+.donut-chart-container {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    canvas {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .total-label {
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 100px);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+        .total-number {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+        
+        .total-text {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: -4px;
+        }
+    }
+}

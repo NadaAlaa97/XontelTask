@@ -1,0 +1,28 @@
+{
+    "HEADER": {
+        "SEARCH": "Search..."
+    },
+    "SIDEBAR": {
+        "DASHBOARD": "Dashboard",
+        "POSTS_LIST": "Posts Lists",
+        "LOGOUT": "Logout"
+    },
+    "DASHBOARD": {
+        "TITLE": "Dashboard",
+        "TOTAL_USER": "Total Users",
+        "TOTAL_ORDER": "Total Orders",
+        "TOTAL_SALES": "Total Sales",
+        "TOTAL_PENDING": "Total Pending",
+        "UP_FROM_YESTERDAY": "Up from yesterday",
+        "DOWN_FROM_YESTERDAY": "Down from yesterday",
+        "UP_FROM_PAST_WEEK": "Up from past week",
+        "SALES_DETAILS": "Sales Details",
+        "CUSTOMERS_ANALYTICS": "Customers Analytics",
+        "SALES_ANALYTICS": "Sales Analytics",
+        "CHART_PLACEHOLDERS": {
+            "BAR": "Bar Chart Placeholder",
+            "DONUT": "Donut Chart Placeholder",
+            "LINE": "Line Chart Placeholder"
+        }
+    }
+} 

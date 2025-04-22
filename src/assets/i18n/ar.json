@@ -1,0 +1,28 @@
+{
+    "HEADER": {
+        "SEARCH": "بحث..."
+    },
+    "SIDEBAR": {
+        "DASHBOARD": "لوحة التحكم",
+        "POSTS_LIST": "قائمة المنشورات",
+        "LOGOUT": "تسجيل خروج"
+    },
+    "DASHBOARD": {
+        "TITLE": "لوحة التحكم",
+        "TOTAL_USER": "إجمالي المستخدمين",
+        "TOTAL_ORDER": "إجمالي الطلبات",
+        "TOTAL_SALES": "إجمالي المبيعات",
+        "TOTAL_PENDING": "إجمالي المعلق",
+        "UP_FROM_YESTERDAY": "ارتفاع عن الأمس",
+        "DOWN_FROM_YESTERDAY": "انخفاض عن الأمس",
+        "UP_FROM_PAST_WEEK": "ارتفاع عن الأسبوع الماضي",
+        "SALES_DETAILS": "تفاصيل المبيعات",
+        "CUSTOMERS_ANALYTICS": "تحليلات العملاء",
+        "SALES_ANALYTICS": "تحليلات المبيعات",
+        "CHART_PLACEHOLDERS": {
+            "BAR": "مخطط شريطي",
+            "DONUT": "مخطط دائري",
+            "LINE": "مخطط خطي"
+        }
+    }
+} 

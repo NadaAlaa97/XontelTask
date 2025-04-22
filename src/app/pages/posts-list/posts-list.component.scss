@@ -1,0 +1,17 @@
+.posts {
+  padding: 20px;
+}
+
+.table {
+  th {
+    font-weight: 500;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+}
+
+:host ::ng-deep c-breadcrumb {
+    --cui-breadcrumb-divider: ">" !important;
+  }
